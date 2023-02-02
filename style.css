@@ -1,19 +1,19 @@
-body {
-background-color: #256d9c;
-font-family: Arial, Helvetica, sans-serif;
-justify-content: center;
-align-items: center;
-display: block;
+body {/* Définit le style du corps de toute lapage */
+background-color: #256d9c; /* Définit la couleur de fond */
+font-family: Arial, Helvetica, sans-serif;/* Definit les polices utilisées */
+justify-content: center; /* Centrer le contenu */
+align-items: center; /* Centrer le contenu */
 }
+
 h1 {
-background-color: #683d3d;
-border-radius: 20px;
-padding: 30px;
-display: flex;
-position: sticky;
-text-align: center;
-font-size: 35px;
-color: black;
+background-color: #683d3d; /* Définit la couleur de fond des titres de niveau 1*/
+border-radius: 20px; /* Définit les coins arrondis */
+padding: 30px; /* Définit la marge intérieure */
+display: flex; /* Définit le style de disposition */
+position: sticky; /* Définit la position ici gluent: le titre reste en haut de la page quand on scroll */
+text-align: center; /* Centrer le texte */
+font-size: 35px; /* Définit la taille du text */
+color: black; /* Définit la couleur du text */
 }
 
 .html {
