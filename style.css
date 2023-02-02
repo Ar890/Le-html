@@ -2,16 +2,18 @@ body {/* Définit le style du corps de toute lapage */
 background-color: #256d9c; /* Définit la couleur de fond */
 font-family: Arial, Helvetica, sans-serif;/* Definit les polices utilisées */
 justify-content: center; /* Centrer le contenu */
+text-align: center; /* Centrer le texte */
 align-items: center; /* Centrer le contenu */
 }
 
 h1 {
-background-color: #683d3d; /* Définit la couleur de fond des titres de niveau 1*/
+background-color: #ffffff; /* Définit la couleur de fond des titres de niveau 1*/
 border-radius: 20px; /* Définit les coins arrondis */
 padding: 30px; /* Définit la marge intérieure */
 display: flex; /* Définit le style de disposition */
 position: sticky; /* Définit la position ici gluent: le titre reste en haut de la page quand on scroll */
 text-align: center; /* Centrer le texte */
+align-items: center;
 font-size: 35px; /* Définit la taille du text */
 color: black; /* Définit la couleur du text */
 }
@@ -147,4 +149,14 @@ background-color: #8a5555;
 padding: 10px;
 text-align: center;
 color: black;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+a:hover {
+color: #ffffff;
+text-decoration: underline;
 }
