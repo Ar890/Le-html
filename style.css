@@ -9,6 +9,8 @@ h1 {
 background-color: #683d3d;
 border-radius: 20px;
 padding: 30px;
+display: flex;
+position: sticky;
 text-align: center;
 font-size: 35px;
 color: black;
